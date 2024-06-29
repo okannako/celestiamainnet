@@ -2,7 +2,7 @@
 
 * Celestia Mainnet Beta ağında bu kılavuz içerisinde adım adım ilerleyerek Mainnet Beta ağında Validator, Bridge, Full Storage ve Light Node çalıştırabilirsiniz.
 
-* Kurulumn sırasında veya sonrasında bir şey sormak isterseniz bana Telegram, Mail ve Discord yoluyla ulaşabirsiniz. Ayrıca Github üzerinden de katkı sağlayabilirsiniz.
+* Kurulumn sırasında veya sonrasında bir şey sormak isterseniz bana Telegram, Mail ve Discord yoluyla ulaşabirsiniz.
 
 ## Validator Node Minimum Sistem Gereksinimleri
 
