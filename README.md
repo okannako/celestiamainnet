@@ -1,8 +1,6 @@
 ![208](https://github.com/okannako/celestiamainnet/assets/73176377/a36d1b99-80be-47c6-869b-d32c2f5790dd)
 
-* Celestia Mocha test ağı uzun süredir aktif bir şekilde çalışıyor ve geliştirmeler sürekli devam ettiği için belirsiz bir süre zarfında çalışmaya devam edecek.
-
-* Bu kılavuz içerisinde adım adım ilerleyerek test ağında Validator, Bridge, Full Storage ve Light Node çalıştırabilir, ağa katkıda bulunabilirsiniz.
+* Celestia Mainnet Beta ağında bu kılavuz içerisinde adım adım ilerleyerek Mainnet Beta ağında Validator, Bridge, Full Storage ve Light Node çalıştırabilirsiniz.
 
 * Kurulumn sırasında veya sonrasında bir şey sormak isterseniz bana Telegram, Mail ve Discord yoluyla ulaşabirsiniz. Ayrıca Github üzerinden de katkı sağlayabilirsiniz.
 
