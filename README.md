@@ -411,8 +411,8 @@ EOF
 ### Node Başlatmak
 ```
 sudo systemctl daemon-reload
-sudo systemctl enable celestia-full
-sudo systemctl start celestia-full && sudo journalctl -u celestia-full -f
+sudo systemctl enable celestia-light
+sudo systemctl start celestia-light && sudo journalctl -u celestia-light -f
 ```
 
 ### Node Id Öğrenmek
