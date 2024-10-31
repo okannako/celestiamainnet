@@ -436,7 +436,7 @@ rm -rf $HOME/.celestia-light-mocha
 rm -rf $HOME/.celestia-app
 ```
 
-### bbr Açmak
+### bbr Aktif Hale Getirmek (Mutlaka Yapın)
 - Aşağıdaki kodları girerek basit bir şekilde aktifleştirebilirsiniz.
 ```
 cd celestia-app
