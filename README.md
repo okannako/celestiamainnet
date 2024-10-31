@@ -435,3 +435,23 @@ rm -rf $HOME/celestia-node
 rm -rf $HOME/.celestia-light-mocha
 rm -rf $HOME/.celestia-app
 ```
+
+### bbr Açmak
+- Aşağıdaki kodları girerek basit bir şekilde aktifleştirebilirsiniz.
+```
+cd celestia-app
+make enable-bbr
+```
+
+- Eğer yukarıdaki kodlarda hata alırsanız aşağıdaki kodla aktif hale getirebilirsiniz.
+```
+sudo modprobe tcp_bbr; \
+        echo "net.core.default_qdisc=fq" | sudo tee -a /etc/sysctl.conf; \
+        echo "net.ipv4.tcp_congestion_control=bbr" | sudo tee -a /etc/sysctl.conf; \
+        sudo sysctl -p; \
+```
+
+- Aktiflik kontrolünü aşağıdaki kodla yaptığınızda sonuç olarak ```bbr``` vermelidir.
+```
+sysctl net.ipv4.tcp_congestion_control | awk '{print $3}'
+```
